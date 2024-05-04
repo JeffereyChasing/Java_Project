@@ -31,8 +31,10 @@ public class Card {
         suitMap.put(4,"Diamonds");
 
         return suitMap.get(this.color) + " of " + this.value;
+    }
 
-
+    public int getValue(){
+        return this.value;
     }
 
 
